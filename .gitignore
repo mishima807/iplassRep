@@ -1,0 +1,10 @@
+/.gradle/
+/bin/
+/build/
+.classpath
+.project
+/.settings/
+/node_modules/
+/dist/
+/src/main/webapp/static/mdc
+!.gitkeep

@@ -1,0 +1,27 @@
+{
+  // ペースト時に自動でフォーマット
+  "editor.formatOnPaste": true,
+  // ファイル保存時に自動でフォーマット
+  "editor.formatOnSave": true,
+  // 入力した行を自動でフォーマット
+  "editor.formatOnType": true,
+  // ファイルの種類ごとにフォーマッターを指定する
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ESLintに対応しているファイルは保存時にESLintによるフォーマットを行う
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  // Importは絶対パスで
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
